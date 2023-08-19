@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio| hari haran s</title>
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Hari Haran S</h1>
+            <h3>
+               And im a <span class="multiple-text"></span>
+            </h3>
+            <p>Motivated MCA student with a strong background in computer science seeking an IT job. Passionate about technology, adept at problem-solving, and continuously updating skills to contribute to the industry's growth.</p>
+            <div class="social-media">
+                <a href="https://www.youtube.com/@Tamilknowledge2.0/featured" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.instagram.com/haran_irah/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/hariharan-s-183207260" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.codechef.com/users/haran_irah"target="_blank"><i class='bx bx-code-alt'></i></a>
+
+            </div>
+            <a href="https://drive.google.com/file/d/1dvfyQzRNk8__FMi8Q6eyLyjB2ps3tP_a/view?usp=share_link" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="./profile.png" width ="500" height="500"alt=""> 
+                </div>
+    </section>   
+    <section class="about" id="about"> 
+        <div class="about-img">
+            <img src="./about.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Tech-Driven Trailblazer</h3>
+            <p>I am not your ordinary MCA student; I possess a burning passion for technology and an electrifying presence as a YouTuber with over 1 million devoted subscribers. With acclaim for my entertaining and educational content, I am an influential figure in the digital realm.
+
+                My achievements speak volumes. I won the first prize in a competitive department-level ideathon, showcasing my ability to transform ideas into groundbreaking solutions. Securing 10th position in the esteemed Yi Young India competition further solidifies my status as an innovation trailblazer.
+                
+                Now, I am ready to leverage my diverse talents and unwavering dedication for a coveted IT job. With a captivating presence, deep tech understanding, and a track record of success, I am poised to make an indelible impact in the industry. Brace yourself for innovation, creativity, and unwavering excellence as I shape the future of IT with determination.</p>
+               
+    </section>
+    <!--service section design-->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container"> 
+        <div class="skills-box">
+            <i class='bx bxl-java'></i>
+            <h3>Java</h3>
+            <p>Proficient in Java with a basic understanding of its core concepts.</p>
+            
+        </div>
+        <div class="skills-box">
+            <i class='bx bxl-javascript'></i>
+            <h3>Java script</h3>
+            <p>Proficient in JavaScript, capable of building interactive web applications.</p>
+            
+        </div>
+        <div class="skills-box">
+            <i class='bx bxs-data' ></i>
+            <h3>Sql</h3>
+            <p>Proficient in SQL, experienced in managing and querying databases.</p>
+          
+        </div>
+        
+    </div>
+    </section>
+    <!--portfolio section-->
+    <section  class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./java.jpg"  alt="">
+                <div class ="portfolio-layer">
+                  <h4>Java Project</h4>
+                  <p>this is my java project i done lot of efforts here an there</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./react.jpg"   alt="">
+                <div class ="portfolio-layer">
+                  <h4>React Project</h4>
+                  <p>this is my react project i done lot of efforts here an there</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./ml.jpg" alt="">
+                <div class ="portfolio-layer">
+                  <h4>ML Project</h4>
+                  <p>Ecg-Signal-Processing-Using-MachineLearning-Algorithm</p>
+                  <a href="https://github.com/haran-irah/ECG-Signal-processing-Using-MachineLearning-Algorithm" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./mysql.jpg"  class="resize" alt="">
+                <div class ="portfolio-layer">
+                  <h4>mysql Project</h4>
+                  <p>this is my mysql project i done lot of efforts here an there</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span>
+         <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="input-box">
+            <input type="text" placeholder="FullName">
+            <input type="email" id="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" class="" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+          </form>
+    </section>
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+
+            <p>Copyright &copy; 2023 by Hariharan S | All Rights Reserved </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+    </footer>
+    <!-- scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--cusom js-->
+<script src="script.js"></script>
+<!--smtp for email-->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+function sendEmail(){
+        Email.send({
+        Host: "smtp.gmail.com",
+        Username : "hariharans.22mca@kongu.edu",
+        Password: "",
+        To:'hariharans.22mca@kongu.edu',
+        From: document.getElementById("email").value,
+        Subject:"contact form",
+        Body:"This is body"
+        }).then(message=>alert(message));
+        }
+</script>
+</body>
+</html>
